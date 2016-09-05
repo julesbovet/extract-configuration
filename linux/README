@@ -1,0 +1,10 @@
+Usage: ./linux.sh [options] [arguments]
+
+Options:
+  -h, --help          display this help
+  -o, --out           path to output folder
+
+Arguments:
+  None
+
+Bash script to copy important system files.

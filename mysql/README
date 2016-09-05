@@ -1,0 +1,11 @@
+Audit PostgreSQL 8.X and 9.X configuration
+
+Must be run from root
+
+Usage:
+  ./postgresql.sh -h
+
+Options:
+  -c|--conf : Specify where the main configuration files lie. /etc/postgresql/9.X/main by default
+  -o|--out  : Specify where the script should store its results. $PWD/results by default
+  -b|--bin  : Specify the psql binary path. $(which psql) by default
